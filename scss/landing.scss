@@ -1,0 +1,193 @@
+// @use './partials/global' as *;
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-size: 2.25rem;
+    font-style: normal;
+}
+
+p {
+    font-size: 0.65rem;
+}
+
+.navbar, header, footer {
+    background-color: #FFF0ED;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+}
+
+header {
+    height: 325px;
+    padding: 20px;
+} 
+
+ .navbar  {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+} 
+
+.footer__container {
+    padding: 20px 45px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.mainContent {
+    
+    background-color: #F8F8FF;
+    text-align: center;
+    padding: 30px;
+    margin: 0 auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+}
+ 
+ .card-container-card {
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     background-color: white;
+     /* padding: 16px; */
+     width: 24%;
+     height: 230px;
+     margin-right: 45px;
+     text-align: center;
+     align-items: flex-end;
+     vertical-align: bottom;
+
+ }
+
+.card-container-card > img {
+    height: 50%;
+}
+
+.container--product {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFF0ED;
+    padding: 10px;
+    height: 33%;
+    text-align: left;
+    align-items: center;
+}
+
+.store-description {
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+
+.promoContainer {
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+    position: relative;
+    padding: 25px 45px;
+}
+
+.promoContainer-description {
+    width: 38%;
+    align-items: left;
+    
+}
+
+.promoContainer-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../assets/coldbrewbackground.png);
+    background-position: center;
+    background-size: cover;
+    width: 30%;
+    height: 75%;
+    
+}
+
+.promo--description__icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.promo {
+    margin: 50px 30px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    background-color: #404040;
+    width: 80%;
+    
+}
+
+.promo > p {
+    font-size: 1.75rem;
+    font-weight: 350;
+    
+}
+
+img {
+    min-width: 45px;
+    max-width: 80px;
+}
+
+header > img {
+    max-width: 175px;
+}
+
+.prices {
+    color: #5BACC3;
+    font-weight: 400;
+    font-size: large;
+}
+
+.links {
+    background-color: #5BACC3;
+    border: none;
+    color: white;
+    padding: 10px 25px;
+    margin: 35px 0;
+}
+
+.icons {
+    max-width: 20px;
+    max-height: 25px;
+}
+
+
+
+.img-coffeebeans {
+    float: right;
+    min-width: 180px;
+    margin-bottom: 10px;
+}
+
+
+
+.button-links {
+    background-color: #5BACC3;
+    padding: 10px;
+    color: white;
+}
+

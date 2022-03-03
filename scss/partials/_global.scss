@@ -1,0 +1,159 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, h1, h2, h3 {
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-size: 2.25rem;
+    font-style: normal;
+}
+
+p {
+    font-size: 0.65rem;
+}
+
+.navbar, header, footer {
+    background-color: #FFF0ED;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-style: normal;
+    
+}
+header {
+    height: 325px;
+    padding: 20px;
+}
+
+.navbar > h2, img, a {
+    display: inline-block;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px;
+    color: #000;
+}
+
+// .container {
+//     display: flex;
+//     justify-content: space-around;
+//     /* align-items: center; */
+// }
+
+
+// .container > div {
+//     /* display: inline-block; */
+// }
+
+// /* .mainContent {
+    
+//     background-color: #F8F8FF;
+//     text-align: center;
+//     padding: 20px;
+//     margin: 0 auto;
+// }
+// .card-container {
+//     display: flex;
+//     margin: 10px;
+// }
+// .card-container-card {
+//     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+//     background-color: white;
+//     padding: 16px;
+//     display: inline-block;
+//     width: 17.5%;
+//     height: 250px;
+//     margin-right: 45px;
+//     text-align: center;
+//     align-items: flex-end;
+//     vertical-align: bottom;
+
+// }
+
+// .card-container-card > img {
+//     height: 50%;
+// }
+
+// .store-description {
+//     margin-left: 50px;
+//     padding: 10px;
+    
+// }
+
+// .promoContainer {
+//     height: 300px;
+//     position: relative;
+// }
+
+// .promo {
+//     color: white;
+//     text-align: center;
+//     background-color: #404040;
+//     width: 80%;
+//     height: auto;
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     margin-right: -50%;
+//     transform: translate(-50%, -50%)
+
+// }
+
+// .promo > p {
+//     font-size: 1.75rem;
+//     font-weight: 350;
+    
+// } */
+
+img {
+    min-width: 45px;
+    max-width: 80px;
+}
+
+header > img {
+    max-width: 175px;
+}
+
+.prices {
+    color: #5BACC3;
+    font-weight: 400;
+    font-size: large;
+}
+
+.links {
+    background-color: #5BACC3;
+    border: none;
+    color: white;
+}
+
+.icons {
+    max-width: 20px;
+    max-height: px;
+}
+
+address {
+    font-style: normal;
+}
+
+.img-coffeebeans {
+    float: right;
+    min-width: 180px;
+    margin-bottom: 10px;
+}
+
+.addresses, .hours, .social {
+    display: inline-block;
+}
+
+
+
+.links {
+    padding: 10px 25px;
+    margin: 35px 0;
+}
